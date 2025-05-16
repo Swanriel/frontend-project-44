@@ -14,6 +14,6 @@ const generateRound = () => {
     .join(' ')
 
   return [question, correctAnswer]
-};
+}
 
 export { generateRound }
