@@ -6,3 +6,4 @@
 [![Demo brain-gcd](https://asciinema.org/a/syu1SPy4dH83pkDAnYF55kjHw.svg)](https://asciinema.org/a/syu1SPy4dH83pkDAnYF55kjHw)
 [![Demo brain-progression](https://asciinema.org/a/AvWZ7O63Yei7GR4m5tSA9Yo2g.svg)](https://asciinema.org/a/AvWZ7O63Yei7GR4m5tSA9Yo2g)
 [![Demo brain-prime](https://asciinema.org/a/KLlpaWBWdsNKFfdtEAIrzIgpE.svg)](https://asciinema.org/a/KLlpaWBWdsNKFfdtEAIrzIgpE)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Swanriel_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Swanriel_frontend-project-44)
