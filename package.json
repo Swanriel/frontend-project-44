@@ -27,5 +27,9 @@
   "homepage": "https://github.com/Swanriel/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.26.0"
   }
 }
