@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { runGame } from '../src/index.js';
-import { generateRound } from '../src/games/calc.js';
+import { runGame } from '../src/index.js'
+import { generateRound } from '../src/games/calc.js'
 
-const description = 'What is the result of the expression?';
+const description = 'What is the result of the expression?'
 
-runGame(description, generateRound);
+runGame(description, generateRound)
