@@ -5,7 +5,7 @@ const calculate = (num1, num2, operator) => {
     case '*': return num1 * num2
     default: throw new Error(`Unknown operator: ${operator}`)
   }
-};
+}
 
 const getRandomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min
@@ -18,6 +18,6 @@ const generateRound = () => {
   const question = `${num1} ${operator} ${num2}`
   const correctAnswer = String(calculate(num1, num2, operator))
   return [question, correctAnswer]
-};
+}
 
 export { generateRound }

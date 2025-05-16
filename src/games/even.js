@@ -1,4 +1,4 @@
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0;
 
 const getRandomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min
@@ -8,6 +8,6 @@ const generateRound = () => {
   const question = String(number)
   const correctAnswer = isEven(number) ? 'yes' : 'no'
   return [question, correctAnswer]
-};
+}
 
-export { generateRound };
+export { generateRound }
