@@ -9,6 +9,6 @@ const generateRound = () => {
   const correctAnswer = String(findGCD(num1, num2))
 
   return [question, correctAnswer]
-};
+}
 
 export { generateRound }
