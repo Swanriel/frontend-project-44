@@ -6,7 +6,3 @@ export const greetUser = () => {
   console.log(`Hello, ${name}!`)
   return name
 }
-
-export const askQuestion = (question) => {
-  return readlineSync.question(`${question}\nYour answer: `)
-}
