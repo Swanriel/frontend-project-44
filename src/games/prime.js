@@ -1,4 +1,5 @@
 import { runGame } from '../index.js';
+import { getRandomNumber } from '../helpers/random.js';
 
 const isPrime = (num) => {
   if (num < 2) return false;
@@ -7,9 +8,6 @@ const isPrime = (num) => {
   }
   return true;
 };
-
-const getRandomNumber = (min, max) => 
-  Math.floor(Math.random() * (max - min + 1)) + min;
 
 const generateRound = () => {
   const number = getRandomNumber(1, 100);

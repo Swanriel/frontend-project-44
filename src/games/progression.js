@@ -1,5 +1,5 @@
 import { runGame } from '../index.js';
-import { getRandomNumber } from '../helpers/random.js'; // Если вынесли общую функцию
+import { getRandomNumber } from '../helpers/random.js';
 
 const generateProgression = (start, step, length) => {
   return Array.from({ length }, (_, i) => start + i * step);

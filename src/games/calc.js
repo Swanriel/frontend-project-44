@@ -1,4 +1,5 @@
 import { runGame } from '../index.js';
+import { getRandomNumber } from '../helpers/random.js';
 
 const calculate = (num1, num2, operator) => {
   switch (operator) {
@@ -8,9 +9,6 @@ const calculate = (num1, num2, operator) => {
     default: throw new Error(`Unknown operator: ${operator}`);
   }
 };
-
-const getRandomNumber = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1)) + min;
 
 const generateRound = () => {
   const num1 = getRandomNumber(1, 100);
