@@ -8,7 +8,7 @@ export const runGame = (description, generateRound) => {
   console.log(`Hello, ${name}!`)
   console.log(description)
 
-  for (let i = 0; i < ROUNDS_COUNT; i += 1) { 
+  for (let i = 0; i < ROUNDS_COUNT; i += 1) {
     const [question, correctAnswer] = generateRound()
     console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ').toLowerCase()
