@@ -1,4 +1,1 @@
 node_modules
-
-# Игнорировать все .cast файлы
-*.cast
