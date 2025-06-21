@@ -3,7 +3,7 @@ import { getRandomNumber } from '../helpers/random.js'
 
 const generateProgression = (start, step, length) => {
   return Array.from({ length }, (_, i) => start + i * step)
-};
+}
 
 const generateRound = () => {
   const length = getRandomNumber(5, 10)
@@ -16,10 +16,10 @@ const generateRound = () => {
 
   const question = progression
     .map((num, i) => (i === hiddenIndex ? '..' : num))
-    .join(' ');
+    .join(' ')
 
   return [question, correctAnswer]
-};
+}
 
 const description = 'What number is missing in the progression?'
 
